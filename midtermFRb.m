@@ -7,7 +7,7 @@
 clear, clc, close all
 mu = 5;
 %stddev = 1;
-stddev = 10000;
+stddev = 100;
 numPoints = 1E6;
 
 x = round(normrnd(mu,stddev,[numPoints 1]));
